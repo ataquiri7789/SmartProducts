@@ -206,13 +206,7 @@ cd SmartProducts
 docker compose up --build -d
 ```
 
-## 3. Aplicar migraciones
-
-```bash
-dotnet ef database update --project SmartProducts.Infrastructure --startup-project SmartProducts.Api
-```
-
-## 4. Abrir la aplicación
+## 3. Abrir la aplicación
 
 - Frontend: http://localhost:4200
 - Swagger: http://localhost:5163/swagger
