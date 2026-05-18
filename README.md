@@ -186,7 +186,7 @@ Servicios incluidos:
 
 ### URLs
 - Frontend: http://localhost:4200
-- Swagger: http://localhost:5163/swagger
+- Swagger: http://localhost:5063/swagger
 - SQL Server: localhost,1433
 
 ---
@@ -209,7 +209,7 @@ docker compose up --build -d
 ## 3. Abrir la aplicación
 
 - Frontend: http://localhost:4200
-- Swagger: http://localhost:5163/swagger
+- Swagger: http://localhost:5063/swagger
 
 ---
 
