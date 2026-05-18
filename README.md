@@ -2,6 +2,31 @@
 
 Aplicación Full Stack desarrollada como prueba técnica utilizando arquitectura enterprise.
 
+## 🗄️ Script SQL de referencia
+
+El siguiente script representa la estructura que Entity Framework Core genera automáticamente:
+
+```sql
+CREATE DATABASE SmartProductsDb;
+GO
+
+USE SmartProductsDb;
+GO
+
+CREATE TABLE Products
+(
+    Id INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+    Name NVARCHAR(100) NOT NULL,
+    Price DECIMAL(18,2) NOT NULL,
+    CreatedAt DATETIME2 NOT NULL DEFAULT GETDATE(),
+    UpdatedAt DATETIME2 NULL
+);
+GO
+```
+
+Este script es solo referencial; el ORM se encarga de crear y actualizar la base de datos.
+
+
 ## 🚀 Tecnologías Utilizadas
 
 ### Backend
