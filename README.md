@@ -2,6 +2,8 @@
 
 Aplicación Full Stack desarrollada como prueba técnica utilizando arquitectura enterprise.
 
+> **Nota:** La base de datos se crea automáticamente mediante Entity Framework Core (ORM) y las migraciones incluidas en el proyecto. No es necesario ejecutar scripts SQL manualmente para levantar la solución.
+
 ## 🗄️ Script SQL de referencia
 
 El siguiente script representa la estructura que Entity Framework Core genera automáticamente:
@@ -24,10 +26,10 @@ CREATE TABLE Products
 GO
 ```
 
-Este script es solo referencial; el ORM se encarga de crear y actualizar la base de datos.
+Este script es solo referencial; el ORM se encarga de crear y actualizar la base de datos a partir de las entidades y migraciones.
 
 
-## 🚀 Tecnologías Utilizadas
+## 🚀 Tecnologías Utiladas
 
 ### Backend
 - .NET 8 Web API
@@ -225,16 +227,73 @@ git clone <URL_DEL_REPOSITORIO>
 cd SmartProducts
 ```
 
-## 2. Levantar contenedores
+## 2. Ubicarse en la raíz de la solución
+
+Asegúrate de ejecutar todos los comandos desde la carpeta donde se encuentra el archivo `docker-compose.yml`.
+
+```text
+SmartProducts/
+```
+
+## 3. Levantar toda la solución
 
 ```bash
 docker compose up --build -d
 ```
 
-## 3. Abrir la aplicación
+Este comando realiza automáticamente lo siguiente:
 
-- Frontend: http://localhost:4200
-- Swagger: http://localhost:5063/swagger
+- Levanta SQL Server en un contenedor Docker.
+- Construye y ejecuta la API en .NET 8.
+- Construye y publica el frontend Angular 17 con Nginx.
+- Crea la red interna entre los contenedores.
+
+> **Nota:** La API aplica automáticamente las migraciones de Entity Framework Core al iniciar, por lo que no es necesario ejecutar `dotnet ef database update` manualmente.
+
+## 4. Verificar que los contenedores estén activos
+
+```bash
+docker ps
+```
+
+Deberías visualizar los siguientes contenedores:
+
+- `smartproducts-sql`
+- `smartproducts-api`
+- `smartproducts-web`
+
+## 5. Abrir la aplicación
+
+- Frontend Angular: http://localhost:4200
+- Swagger API: http://localhost:5063/swagger
+
+## 6. Probar la aplicación
+
+1. Ingresar al frontend.
+2. Hacer clic en **Iniciar Sesión**.
+3. Crear uno o más productos.
+4. Buscar productos por código o nombre.
+5. Cerrar sesión.
+
+## 7. Ver logs (opcional)
+
+```bash
+docker compose logs -f
+```
+
+## 8. Detener la solución
+
+```bash
+docker compose down
+```
+
+## 9. Eliminar también la base de datos (opcional)
+
+```bash
+docker compose down -v
+```
+
+> Este comando elimina los volúmenes de Docker, incluyendo la base de datos SQL Server.
 
 ---
 
@@ -311,6 +370,7 @@ cd smart-products-web
 ng serve
 ```
 
+---
 
 # 📌 Credenciales de SQL Server
 
