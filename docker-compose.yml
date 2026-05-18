@@ -1,0 +1,39 @@
+version: '3.9'
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: smartproducts-sql
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "Str0ng!SqlServer2026#Secure"
+    ports:
+      - "1433:1433"
+    volumes:
+      - sql_data:/var/opt/mssql
+
+  api:
+    build:
+      context: .
+      dockerfile: SmartProducts.Api/Dockerfile
+    container_name: smartproducts-api
+    ports:
+      - "5063:8080"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings__DefaultConnection: "Server=sqlserver,1433;Database=SmartProductsDb;User Id=sa;Password=Str0ng!SqlServer2026#Secure;TrustServerCertificate=True;"
+    depends_on:
+      - sqlserver
+
+  frontend:
+    build:
+      context: ./smart-products-web
+      dockerfile: Dockerfile
+    container_name: smartproducts-web
+    ports:
+      - "4200:80"
+    depends_on:
+      - api
+
+volumes:
+  sql_data:

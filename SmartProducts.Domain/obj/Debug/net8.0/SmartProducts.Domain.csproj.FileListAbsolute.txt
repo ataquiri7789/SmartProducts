@@ -1,0 +1,23 @@
+C:\Users\ALEX\Documents\RETOS\SmartProducts\SmartProducts.Domain\bin\Debug\net8.0\SmartProducts.Domain.deps.json
+C:\Users\ALEX\Documents\RETOS\SmartProducts\SmartProducts.Domain\bin\Debug\net8.0\SmartProducts.Domain.dll
+C:\Users\ALEX\Documents\RETOS\SmartProducts\SmartProducts.Domain\bin\Debug\net8.0\SmartProducts.Domain.pdb
+C:\Users\ALEX\Documents\RETOS\SmartProducts\SmartProducts.Domain\obj\Debug\net8.0\SmartProducts.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ALEX\Documents\RETOS\SmartProducts\SmartProducts.Domain\obj\Debug\net8.0\SmartProducts.Domain.AssemblyInfoInputs.cache
+C:\Users\ALEX\Documents\RETOS\SmartProducts\SmartProducts.Domain\obj\Debug\net8.0\SmartProducts.Domain.AssemblyInfo.cs
+C:\Users\ALEX\Documents\RETOS\SmartProducts\SmartProducts.Domain\obj\Debug\net8.0\SmartProducts.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ALEX\Documents\RETOS\SmartProducts\SmartProducts.Domain\obj\Debug\net8.0\SmartProducts.Domain.dll
+C:\Users\ALEX\Documents\RETOS\SmartProducts\SmartProducts.Domain\obj\Debug\net8.0\refint\SmartProducts.Domain.dll
+C:\Users\ALEX\Documents\RETOS\SmartProducts\SmartProducts.Domain\obj\Debug\net8.0\SmartProducts.Domain.pdb
+C:\Users\ALEX\Documents\RETOS\SmartProducts\SmartProducts.Domain\obj\Debug\net8.0\ref\SmartProducts.Domain.dll
+C:\Users\Usuario\Documents\Reto Tecnico\ManageProducts\SmartProducts.Domain\bin\Debug\net8.0\SmartProducts.Domain.deps.json
+C:\Users\Usuario\Documents\Reto Tecnico\ManageProducts\SmartProducts.Domain\bin\Debug\net8.0\SmartProducts.Domain.dll
+C:\Users\Usuario\Documents\Reto Tecnico\ManageProducts\SmartProducts.Domain\bin\Debug\net8.0\SmartProducts.Domain.pdb
+C:\Users\Usuario\Documents\Reto Tecnico\ManageProducts\SmartProducts.Domain\obj\Debug\net8.0\SmartProducts.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Documents\Reto Tecnico\ManageProducts\SmartProducts.Domain\obj\Debug\net8.0\SmartProducts.Domain.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\Reto Tecnico\ManageProducts\SmartProducts.Domain\obj\Debug\net8.0\SmartProducts.Domain.AssemblyInfo.cs
+C:\Users\Usuario\Documents\Reto Tecnico\ManageProducts\SmartProducts.Domain\obj\Debug\net8.0\SmartProducts.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\Reto Tecnico\ManageProducts\SmartProducts.Domain\obj\Debug\net8.0\SmartProducts.Domain.sourcelink.json
+C:\Users\Usuario\Documents\Reto Tecnico\ManageProducts\SmartProducts.Domain\obj\Debug\net8.0\SmartProducts.Domain.dll
+C:\Users\Usuario\Documents\Reto Tecnico\ManageProducts\SmartProducts.Domain\obj\Debug\net8.0\refint\SmartProducts.Domain.dll
+C:\Users\Usuario\Documents\Reto Tecnico\ManageProducts\SmartProducts.Domain\obj\Debug\net8.0\SmartProducts.Domain.pdb
+C:\Users\Usuario\Documents\Reto Tecnico\ManageProducts\SmartProducts.Domain\obj\Debug\net8.0\ref\SmartProducts.Domain.dll

@@ -1,0 +1,93 @@
+
+<div class="container mt-5">
+  <div class="card shadow-lg border-0 rounded-4">
+    
+    <div
+      class="card-header bg-info text-white d-flex justify-content-between align-items-center py-3 px-4">
+      <h3 class="mb-0 fw-bold">Listado de Productos</h3>
+
+      <div>
+        <button
+          class="btn btn-light text-info fw-semibold me-2"
+          (click)="goToCreate()">
+          ➕ Nuevo Producto
+        </button>
+
+        <button
+          class="btn btn-danger fw-semibold"
+          (click)="logout()">
+          Cerrar Sesión
+        </button>
+      </div>
+    </div>
+
+    <!-- Body -->
+    <div class="card-body p-4">
+
+      <!-- Filtros -->
+      <div class="row g-3 mb-4">
+        <div class="col-md-4">
+          <label class="form-label fw-semibold">Código</label>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Buscar por código"
+            [(ngModel)]="searchCode"
+            (input)="filterProducts()">
+        </div>
+
+        <div class="col-md-4">
+          <label class="form-label fw-semibold">Nombre</label>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Buscar por nombre"
+            [(ngModel)]="searchName"
+            (input)="filterProducts()">
+        </div>
+
+        <div class="col-md-4 d-flex align-items-end">
+          <button
+            class="btn btn-secondary w-100"
+            (click)="clearFilters()">
+            Limpiar filtros
+          </button>
+        </div>
+      </div>
+
+      <!-- Tabla -->
+      <div class="table-responsive">
+        <table class="table table-hover align-middle">
+          <thead class="table-light">
+            <tr>
+              <th>Código</th>
+              <th>Nombre</th>
+              <th class="text-end">Precio Unitario</th>
+              <th>Fecha Creación</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr *ngFor="let product of filteredProducts">
+              <td>{{ product.id }}</td>
+              <td>{{ product.name }}</td>
+              <td class="text-end">
+                {{ product.price | currency:'USD':'symbol':'1.2-2' }}
+              </td>
+              <td>
+                {{ product.createdAt | date:'dd/MM/yyyy HH:mm' }}
+              </td>
+            </tr>
+
+            <tr *ngIf="filteredProducts.length === 0">
+              <td colspan="4" class="text-center text-muted py-4">
+                No se encontraron productos.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  </div>
+</div>

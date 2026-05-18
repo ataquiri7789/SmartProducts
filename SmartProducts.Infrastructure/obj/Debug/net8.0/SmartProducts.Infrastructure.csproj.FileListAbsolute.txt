@@ -1,0 +1,39 @@
+C:\Users\ALEX\Documents\RETOS\SmartProducts\SmartProducts.Infrastructure\obj\Debug\net8.0\SmartProducts.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\ALEX\Documents\RETOS\SmartProducts\SmartProducts.Infrastructure\obj\Debug\net8.0\SmartProducts.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ALEX\Documents\RETOS\SmartProducts\SmartProducts.Infrastructure\obj\Debug\net8.0\SmartProducts.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\ALEX\Documents\RETOS\SmartProducts\SmartProducts.Infrastructure\obj\Debug\net8.0\SmartProducts.Infrastructure.AssemblyInfo.cs
+C:\Users\ALEX\Documents\RETOS\SmartProducts\SmartProducts.Infrastructure\obj\Debug\net8.0\SmartProducts.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\ALEX\Documents\RETOS\SmartProducts\SmartProducts.Infrastructure\bin\Debug\net8.0\SmartProducts.Infrastructure.deps.json
+C:\Users\ALEX\Documents\RETOS\SmartProducts\SmartProducts.Infrastructure\bin\Debug\net8.0\SmartProducts.Infrastructure.runtimeconfig.json
+C:\Users\ALEX\Documents\RETOS\SmartProducts\SmartProducts.Infrastructure\bin\Debug\net8.0\SmartProducts.Infrastructure.dll
+C:\Users\ALEX\Documents\RETOS\SmartProducts\SmartProducts.Infrastructure\bin\Debug\net8.0\SmartProducts.Infrastructure.pdb
+C:\Users\ALEX\Documents\RETOS\SmartProducts\SmartProducts.Infrastructure\bin\Debug\net8.0\SmartProducts.Application.dll
+C:\Users\ALEX\Documents\RETOS\SmartProducts\SmartProducts.Infrastructure\bin\Debug\net8.0\SmartProducts.Domain.dll
+C:\Users\ALEX\Documents\RETOS\SmartProducts\SmartProducts.Infrastructure\bin\Debug\net8.0\SmartProducts.Application.pdb
+C:\Users\ALEX\Documents\RETOS\SmartProducts\SmartProducts.Infrastructure\bin\Debug\net8.0\SmartProducts.Domain.pdb
+C:\Users\ALEX\Documents\RETOS\SmartProducts\SmartProducts.Infrastructure\obj\Debug\net8.0\SmartPro.1F1B9575.Up2Date
+C:\Users\ALEX\Documents\RETOS\SmartProducts\SmartProducts.Infrastructure\obj\Debug\net8.0\SmartProducts.Infrastructure.dll
+C:\Users\ALEX\Documents\RETOS\SmartProducts\SmartProducts.Infrastructure\obj\Debug\net8.0\refint\SmartProducts.Infrastructure.dll
+C:\Users\ALEX\Documents\RETOS\SmartProducts\SmartProducts.Infrastructure\obj\Debug\net8.0\SmartProducts.Infrastructure.pdb
+C:\Users\ALEX\Documents\RETOS\SmartProducts\SmartProducts.Infrastructure\obj\Debug\net8.0\SmartProducts.Infrastructure.genruntimeconfig.cache
+C:\Users\ALEX\Documents\RETOS\SmartProducts\SmartProducts.Infrastructure\obj\Debug\net8.0\ref\SmartProducts.Infrastructure.dll
+C:\Users\Usuario\Documents\Reto Tecnico\ManageProducts\SmartProducts.Infrastructure\bin\Debug\net8.0\SmartProducts.Infrastructure.deps.json
+C:\Users\Usuario\Documents\Reto Tecnico\ManageProducts\SmartProducts.Infrastructure\bin\Debug\net8.0\SmartProducts.Infrastructure.runtimeconfig.json
+C:\Users\Usuario\Documents\Reto Tecnico\ManageProducts\SmartProducts.Infrastructure\bin\Debug\net8.0\SmartProducts.Infrastructure.dll
+C:\Users\Usuario\Documents\Reto Tecnico\ManageProducts\SmartProducts.Infrastructure\bin\Debug\net8.0\SmartProducts.Infrastructure.pdb
+C:\Users\Usuario\Documents\Reto Tecnico\ManageProducts\SmartProducts.Infrastructure\bin\Debug\net8.0\SmartProducts.Application.dll
+C:\Users\Usuario\Documents\Reto Tecnico\ManageProducts\SmartProducts.Infrastructure\bin\Debug\net8.0\SmartProducts.Domain.dll
+C:\Users\Usuario\Documents\Reto Tecnico\ManageProducts\SmartProducts.Infrastructure\bin\Debug\net8.0\SmartProducts.Application.pdb
+C:\Users\Usuario\Documents\Reto Tecnico\ManageProducts\SmartProducts.Infrastructure\bin\Debug\net8.0\SmartProducts.Domain.pdb
+C:\Users\Usuario\Documents\Reto Tecnico\ManageProducts\SmartProducts.Infrastructure\obj\Debug\net8.0\SmartProducts.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\Reto Tecnico\ManageProducts\SmartProducts.Infrastructure\obj\Debug\net8.0\SmartProducts.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Documents\Reto Tecnico\ManageProducts\SmartProducts.Infrastructure\obj\Debug\net8.0\SmartProducts.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\Reto Tecnico\ManageProducts\SmartProducts.Infrastructure\obj\Debug\net8.0\SmartProducts.Infrastructure.AssemblyInfo.cs
+C:\Users\Usuario\Documents\Reto Tecnico\ManageProducts\SmartProducts.Infrastructure\obj\Debug\net8.0\SmartProducts.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\Reto Tecnico\ManageProducts\SmartProducts.Infrastructure\obj\Debug\net8.0\SmartProducts.Infrastructure.sourcelink.json
+C:\Users\Usuario\Documents\Reto Tecnico\ManageProducts\SmartProducts.Infrastructure\obj\Debug\net8.0\SmartPro.1F1B9575.Up2Date
+C:\Users\Usuario\Documents\Reto Tecnico\ManageProducts\SmartProducts.Infrastructure\obj\Debug\net8.0\SmartProducts.Infrastructure.dll
+C:\Users\Usuario\Documents\Reto Tecnico\ManageProducts\SmartProducts.Infrastructure\obj\Debug\net8.0\refint\SmartProducts.Infrastructure.dll
+C:\Users\Usuario\Documents\Reto Tecnico\ManageProducts\SmartProducts.Infrastructure\obj\Debug\net8.0\SmartProducts.Infrastructure.pdb
+C:\Users\Usuario\Documents\Reto Tecnico\ManageProducts\SmartProducts.Infrastructure\obj\Debug\net8.0\SmartProducts.Infrastructure.genruntimeconfig.cache
+C:\Users\Usuario\Documents\Reto Tecnico\ManageProducts\SmartProducts.Infrastructure\obj\Debug\net8.0\ref\SmartProducts.Infrastructure.dll
